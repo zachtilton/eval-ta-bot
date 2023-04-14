@@ -27,7 +27,7 @@ export default function Home() {
   }>({
     messages: [
       {
-        message: 'Hi, what would you like to learn about evaluation education in the United States?',
+        message: 'Hi, what would you like to learn about the logic of evaluation?',
         type: 'apiMessage',
       },
     ],
@@ -165,7 +165,7 @@ export default function Home() {
       <Layout>
         <div className="mx-auto flex flex-col gap-4">
           <h1 className="text-2xl font-bold leading-[1.1] tracking-tighter text-center">
-            Chat With an Evaluation Education Guidance Counselor Bot
+            Chat With an Evaluation Teaching Assistant Bot
           </h1>
           <main className={styles.main}>
             <div className={styles.cloud}>
@@ -282,7 +282,7 @@ export default function Home() {
                     placeholder={
                       loading
                         ? 'Waiting for response...'
-                        : 'What questions about evaluation education do you have?'
+                        : 'What questions about the logic of evaluation do you have?'
                     }
                     value={query}
                     onChange={(e) => setQuery(e.target.value)}
